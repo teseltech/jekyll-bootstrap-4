@@ -5,3 +5,6 @@
 @import "bootstrap_assets/_bootstrap-reboot";
 @import "bootstrap_assets/_bootstrap-grid";
 @import "bootstrap_assets/_bootstrap";
+
+$fa-font-path: "{{ "/assets/font-awesome" | relative_url }}";
+@import "font-awesome/_font-awesome";
